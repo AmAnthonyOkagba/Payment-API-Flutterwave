@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: "Muli", Arial, Tahoma, sans-serif;
+    /* font-size: 14px; */
+    line-height: 25px;
+    letter-spacing: 0px;
+    /* font-weight: 400; */
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+}
+
+.about h6 {
+    margin: 1em 0 2em;
+    /* color: #545454; */
+    line-height: 2em;
+}
+
+
+.text-color {
+    background-color: #1E3B5D;
+    color: #fff;
+}
+
+.ttext-color {
+    color: #1E3B5D;
+    /* color: #fff; */
+}
+
+.visit {
+    padding: 50px 10px;
+}
+
+a i {
+    color: rgb(36, 36, 36);
+}
+
+.copyright {
+    /* color: #fff; */
+    /* background: #bfbbb2; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 35px; */
+}
+
+
+.img-banner{
+    background-image: url(../img/media.jpg);
+    height: 250px;
+    width: 100%;
+    display: block;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.img {
+    background: rgba(0, 0, 0, 0.493);
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 505px) {    
+    .about img {
+        height: 350px;
+    }
+}
