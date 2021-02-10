@@ -50,30 +50,6 @@ session_start();
                     <div class="pay text-center pt-3">
                         <h3 style="color: #1E3B5D; font-weight: bold;"> Payment Was Successful</h3>
                     </div>
-    
-                    <!-- <form action="Gateway.html" method="post">
-    
-                        <div class="card-body p-3 ">
-                            <div class="form-group row">
-                                <label>Full Name</label>
-                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                            </div>
-                            <div class="form-group row">
-                                <label>Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email" required>
-                            </div>
-                            <div class="form-group row">
-                                <label>Phone Number </label>
-                                <input type="tel" name="pnumber" class="form-control" placeholder="Phone Number" required>
-                            </div>
-                            <div class="form-group row">
-                                <label>Amount</label>
-                                <input type="tel" name="pnumber" class="form-control" placeholder="Amount" required>
-                            </div>
-                            <button name="reg_btn" class="btn text-color" type="submit">PAY</button>
-                        </div>
-                    </form> -->
-    
                 </div>
             </div>
         </div>
@@ -140,15 +116,6 @@ session_start();
                 document.documentElement.scrollTop = 0;
             }
         </script>
-
-
-
-
-
-
-
-
-
 
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
