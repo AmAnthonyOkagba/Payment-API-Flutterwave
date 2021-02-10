@@ -51,11 +51,13 @@ session_start();
                     <?php
 
                     if(isset($_POST['pbtn']))
-                    {                    
-                        $name = $_POST ['name'];
-                        $email = $_POST ['email'];
-                        $number = $_POST ['number'];
-                        $amount = $_POST ['amount'];
+                    {
+                        $name = isset( $_POST[ "name" ] ) ? trim( $_POST[ "name" ] ) : "";;
+                        $email = isset( $_POST[ "email" ] ) ? trim( $_POST[ "email" ] ) : "";
+                        $number = isset( $_POST[ "number" ] ) ? trim( $_POST[ "number" ] ) : "";
+                        $amount = isset( $_POST[ "amount" ] ) ? trim( $_POST[ "amount" ] ) : "";
+                        $name = ucwords( $name );
+                        $email = strtolower( $email );
                     
 
                     ?>
