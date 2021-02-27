@@ -28,7 +28,6 @@ session_start();
     <body>
         <nav class="navbar navbar-sm navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
             <div class="container">
-                <!-- <a class="navbar-brand" href="#">GNA</a> -->
                 <a class="navbar-brand" href="index.php">Payment Gateway</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,7 +51,7 @@ session_start();
 
                     if(isset($_POST['pbtn']))
                     {
-                        $name = isset( $_POST[ "name" ] ) ? trim( $_POST[ "name" ] ) : "";;
+                        $name = isset( $_POST[ "name" ] ) ? trim( $_POST[ "name" ] ) : "";
                         $email = isset( $_POST[ "email" ] ) ? trim( $_POST[ "email" ] ) : "";
                         $number = isset( $_POST[ "number" ] ) ? trim( $_POST[ "number" ] ) : "";
                         $amount = isset( $_POST[ "amount" ] ) ? trim( $_POST[ "amount" ] ) : "";
